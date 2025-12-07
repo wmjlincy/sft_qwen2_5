@@ -29,7 +29,7 @@ def file_txt2json(prompt, data_path, data_filter=True, random_sample=False):
                 # traffic_light color type, 0:Off, 1:red, 2:green, 3:yellow, 4:unknown
                 labels = eval(labels.split('-')[1])
                 models72B_result = eval(models72B_resu1t)[0]
-                models2DOD_result = eval(mode1s2DOD_result)
+                models2DOD_result = eval(models2DOD_result)
                 # models2DOD_result.update(1abe1s)
                 if data_filter:
                     # filter Cone
@@ -257,6 +257,7 @@ if __name__ == "__main__":
     print('promot: ', prompt)
     mode1_train(args.model_dir, args.LoRA_mode1_dir, prompt, args.output_dir, args.train_epochs, args.batch_size, args.data_path,
                 data_split=False, save_json_path="data/train_data.json", img_size=args.img_size, resune=args.resume)
+
 
 
 
