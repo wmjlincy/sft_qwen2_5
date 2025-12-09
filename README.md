@@ -2,9 +2,7 @@
   Recommended speed: 20 km/h
 
   Traffic light: Currently in the straight lane, red light ahead, need to stop and wait, and pay attention to the green light in the left-turn lane
-
   Traffic cones and obstacles: None
-
   Crossroad : There is a pedestrian crossing ahead, need to slow down
 
 
